@@ -31,6 +31,8 @@
   --font-family: "hanken-grotesk", sans-serif;
 
   /* Shadows */
+
+  --shadow: 11px 11px 14px 0px rgba(48, 59, 90, 0.39);
 }
 
 @font-face {
@@ -193,7 +195,7 @@ body {
 .result-summary__summary--item {
   display: flex;
   padding: 0.9375rem;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   justify-content: space-between;
 }
 
@@ -249,4 +251,40 @@ button {
 
 button:hover {
   background-color: var(--clr-circle-persian-blue);
+}
+
+@media (min-width: 500px) {
+  main {
+    display: grid;
+    place-content: center;
+  }
+
+  .result-summary {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 1.875rem;
+    box-shadow: var(--shadow);
+    max-width: 740px;
+  }
+
+  .result-summary__your-result {
+    border-radius: 1.875rem;
+    overflow: hidden;
+    padding: 0rem 4.5rem 0rem 4.5rem;
+    place-content: center;
+    row-gap: 2.5rem;
+  }
+
+  .result-summary__summary {
+    margin: 3.5rem 2rem 3.5rem 2rem;
+  }
+
+  .result-summary__your-result .circle {
+    width: 180px;
+    height: 180px;
+  }
+
+  .result-summary__your-result .result-summary__description {
+    row-gap: 0.5rem;
+  }
 }
