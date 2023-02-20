@@ -204,35 +204,35 @@ body {
   gap: 0.5rem;
 }
 
-.result-summary__summary--item.red {
+.result-summary__summary--item.Reaction {
   background-color: var(--clr-primary-light-red-transparent);
 }
 
-.result-summary__summary--item.red p {
+.result-summary__summary--item.Reaction p {
   color: var(--clr-primary-light-red);
 }
 
-.result-summary__summary--item.yellow {
+.result-summary__summary--item.Memory {
   background-color: var(--clr-primary-orangey-yellow-transparent);
 }
 
-.result-summary__summary--item.yellow p {
+.result-summary__summary--item.Memory p {
   color: var(--clr-primary-orangey-yellow);
 }
 
-.result-summary__summary--item.green {
+.result-summary__summary--item.Verbal {
   background-color: var(--clr-primary-green-teal-transparent);
 }
 
-.result-summary__summary--item.green p {
+.result-summary__summary--item.Verbal p {
   color: var(--clr-primary-green-teal);
 }
 
-.result-summary__summary--item.blue {
+.result-summary__summary--item.Visual {
   background-color: var(--clr-primary-cobalt-blue-transparent);
 }
 
-.result-summary__summary--item.blue p {
+.result-summary__summary--item.Visual p {
   color: var(--clr-primary-cobalt-blue);
 }
 
