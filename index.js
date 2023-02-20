@@ -11,6 +11,7 @@ const getSummary = (data) => {
      <div>
        <img
          src=${icon}
+         alt="${category} icon"
        />
        <p class="bold">${category}</p>
      </div>
