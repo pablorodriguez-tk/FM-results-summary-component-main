@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <article class="result-summary">
+        <div class="result-summary__your-result">
+          <h3>Your Result</h3>
+          <div class="circle">
+            <p class="bold">76</p>
+            <span>of 100</span>
+          </div>
+          <div class="result-summary__description">
+            <p class="bold title">Great</p>
+            <p>
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+          </div>
+        </div>
+        <div class="result-summary__summary">
+          <h3>Summary</h3>
+          <div class="result-summary__summary--item red">
+            <div>
+              <img
+                src="./assets/images/icon-reaction.svg"
+                alt="red reaction icon"
+              />
+              <p class="bold">Reaction</p>
+            </div>
+            <div class="bold">80<span> / 100</span></div>
+          </div>
+          <div class="result-summary__summary--item yellow">
+            <div>
+              <img
+                src="./assets/images/icon-memory.svg"
+                alt="yellow memory icon"
+              />
+              <p class="bold">Memory</p>
+            </div>
+            <div class="bold">92<span> / 100</span></div>
+          </div>
+          <div class="result-summary__summary--item green">
+            <div>
+              <img
+                src="./assets/images/icon-verbal.svg"
+                alt="green verbal icon"
+              />
+              <p class="bold">Verbal</p>
+            </div>
+            <div class="bold">61<span> / 100</span></div>
+          </div>
+          <div class="result-summary__summary--item blue">
+            <div>
+              <img
+                src="./assets/images/icon-visual.svg"
+                alt="blue visual icon"
+              />
+              <p class="bold">Visual</p>
+            </div>
+            <div class="bold">72<span> / 100</span></div>
+          </div>
+          <button class="bold">Continue</button>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
