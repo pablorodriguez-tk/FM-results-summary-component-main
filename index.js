@@ -30,7 +30,7 @@ const getSummary = (data) => {
 const getResults = (data) => {
   const average = data.reduce((acc, { score }) => acc + score, 0) / data.length;
 
-  result = `<h3>Your Result</h3>
+  result = `<h1>Your Result</h1>
   <div class="circle">
     <p class="bold">${average.toPrecision(2)}</p>
     <span>of 100</span>
